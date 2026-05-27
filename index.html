@@ -7,6 +7,24 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2560316501051153');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2560316501051153&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
 <style>
 
 *{
@@ -308,7 +326,10 @@ upto ₹5,00,000
 Paperless process • Instant eligibility • Fast approval
 </p>
 
-<a href="https://creditbee.space-z.ai" target="_blank" class="hero-btn">
+<a href="https://creditbee.space-z.ai"
+target="_blank"
+class="hero-btn"
+onclick="fbq('track','Lead');">
 Apply Now
 </a>
 
@@ -332,7 +353,8 @@ Enter your mobile number to continue your loan application process
 
 <input type="tel" placeholder="+91 Enter Mobile Number" class="input-box">
 
-<button class="check-btn" onclick="window.location.href='https://creditbee.space-z.ai'">
+<button class="check-btn"
+onclick="fbq('track','Lead');window.location.href='https://creditbee.space-z.ai'">
 Check Now
 </button>
 
@@ -435,7 +457,10 @@ Need Money Urgently?
 Apply online in minutes with quick verification and fast approval process.
 </p>
 
-<a href="https://creditbee.space-z.ai" target="_blank" class="final-btn">
+<a href="https://creditbee.space-z.ai"
+target="_blank"
+class="final-btn"
+onclick="fbq('track','Lead');">
 Apply Now
 </a>
 
